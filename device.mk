@@ -4,12 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/samsung/a41
+
 # Inherit from mt6768-common
 $(call inherit-product, device/samsung/mt6768-common/mt6768.mk)
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

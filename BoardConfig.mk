@@ -16,7 +16,11 @@ TARGET_OTA_ASSERT_DEVICE := a41
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := a41_defconfig
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/KernelDTB
+
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 include vendor/samsung/a41/BoardConfigVendor.mk
