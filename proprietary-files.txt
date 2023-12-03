@@ -340,3 +340,12 @@ vendor/app/mcRegistry/ffffffffd00000000000000000000048.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000062.tlbin 
 vendor/app/mcRegistry/ffffffffd00000000000000000000090.tlbin 
 vendor/app/mcRegistry/ffffffffd00000000000000000000093.tlbin 
+
+# Trustonic bringup
+vendor/samsung/a41/proprietary/vendor/lib/hw/kmsetkey.trustonic.so
+vendor/samsung/a41/proprietary/vendor/lib/hw/gatekeeper.trustonic.so
+vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so
+vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so
+vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so
+vendor/samsung/a41/proprietary/vendor/lib64/hw/gatekeeper.trustonic.so
+vendor/samsung/a41/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so
